@@ -1,5 +1,9 @@
 select 
 * 
 from [dbo].[FACTURASCOMPRAFIRMA] 
-where SERIE = ""
-AND NUMERO = ""
+where SERIE = 'ACE'
+AND NUMERO = '16394'
+
+DELETE [FACTURASCOMPRAFIRMA] 
+where SERIE = 'ACE'
+AND NUMERO = '16394'
